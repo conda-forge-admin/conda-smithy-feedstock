@@ -74,7 +74,7 @@ test:
     - conda_smithy.configure_feedstock
   requires:
     # no python_min here to be able to test smithy as a downstream (e.g. conda-feedstock)
-    - python
+    - python *
     - mock
     - pytest
     - pytest-cov
